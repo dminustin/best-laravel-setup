@@ -8,7 +8,7 @@ Will install:
 -reliese/laravel (make models from DB tables on the fly)
 
 ## Install
-Run ./setup/setup
+Run ./setup/setup.sh
 
 ## Usage:
 
