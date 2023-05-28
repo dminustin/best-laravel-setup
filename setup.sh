@@ -9,6 +9,7 @@ composer require --dev phpunit/phpunit
 cp ./setup/build.php ./
 cp ./setup/makefile ./
 cp ./setup/phpstan.neon ./
+cp ./setup/.php-cs-fixer.php ./
 
 php artisan vendor:publish --tag=reliese-models
 
