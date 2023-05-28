@@ -25,8 +25,17 @@ make test
 
 ### Deploy
 ```
-make deploy
+make build
 ```
+
+Will:
+1. run fixer
+2. run tests
+3. increase the minor version in composer.json
+3. run git add .
+4. add new tag according app version from composer.json
+5. run git commit
+6. run git push
 
 
 ### Make models from tables
