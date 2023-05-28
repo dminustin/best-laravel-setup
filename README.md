@@ -10,28 +10,37 @@ Will install:
 ## Install
 Run ./setup/setup
 
-##Usage:
+## Usage:
 
-###Fix
+### Fix
+```
 make fix
+```
 
-###Test
+### Test
+```
 make test
+```
 
 
-###Deploy
+### Deploy
+```
 make deploy
+```
 
 
-###Make models from tables
+### Make models from tables
 php artisan code:models
+
 
 !!Change config/models file
 
 FROM
-
+```
 'base_files' => false
+```
 
 TO
-
+```
 'base_files' => true
+```
