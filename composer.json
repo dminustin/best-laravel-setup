@@ -1,3 +1,14 @@
 {
+    "name": "dminustin/laravel-libs-setup",
+    "description": "Best laravel settings up",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danila Minustin",
+            "email": "danila.minustin@gmail.com"
+        }
+    ],
+    "require": [],
     "version": "1.0.0.1"
 }

@@ -1,4 +1,4 @@
-#Best laravel settings up
+# Best laravel settings up
 
 Will install:
 
